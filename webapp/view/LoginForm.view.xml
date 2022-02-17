@@ -1,0 +1,22 @@
+<mvc:View controllerName="login.login.controller.LoginForm" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:k="sap.ui.layout">
+    <Page id="IDGenPage1" title="login Form View">
+        <content>
+            <FlexBox id="_IDGenFlexBox1" alignItems="Center" justifyContent="Center">
+                <k:VerticalLayout id="_IDGenVerticalLayout1">
+                    <k:HorizontalLayout id="_IDGenHorizontalLayout1">
+                        <Label id="idLUname" width="120px" text="User Name"/>
+                        <Input id="idIUname"/>
+                    </k:HorizontalLayout>
+                    <k:HorizontalLayout id="_IDGenHorizontalLayout2">
+                        <Label id="idLPwd" width="120px" text="Password"/>
+                        <Input id="idIPwd" type="Password"/>
+                    </k:HorizontalLayout>
+                    <k:HorizontalLayout id="_IDGenHorizontalLayout3">
+                        <Label id="idLBtn" width="95px"/>
+                        <Button id="idBtn" text="Login" press="checkDetails" width="120px"/>
+                    </k:HorizontalLayout>
+                </k:VerticalLayout>
+            </FlexBox>
+        </content>
+    </Page>
+</mvc:View>

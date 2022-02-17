@@ -100,8 +100,8 @@
           "viewType": "XML",
           "transition": "slide",
           "clearControlAggregation": false,
-          "viewId": "MyView",
-          "viewName": "MyView"
+          "viewId": "idAp2",
+          "viewName": "App"
         }
       }
     }

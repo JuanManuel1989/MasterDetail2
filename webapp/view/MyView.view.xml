@@ -1,7 +1,4 @@
 <mvc:View controllerName="login.login.controller.MyView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
-	<Page id="page" title="{i18n>title}">
-		<content>
-			<Button id="idButton" text="My Button"  press="onClick"/>
-		</content>
+	<Page id="page">
 	</Page>
 </mvc:View>
