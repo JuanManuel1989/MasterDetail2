@@ -1,5 +1,5 @@
 <mvc:View controllerName="login.login.controller.LoginForm" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:k="sap.ui.layout">
-    <Page id="IDGenPage1" title="login Form View">
+    <Page id="IDGenPage1" title="Login Form View" titleAlignment="Center">
         <content>
             <FlexBox id="_IDGenFlexBox1" alignItems="Center" justifyContent="Center">
                 <k:VerticalLayout id="_IDGenVerticalLayout1">

@@ -1,6 +1,6 @@
 <mvc:View controllerName="login.login.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
 	<Shell id="shell">
-		<App id="idApp">
+		<App>
 			<mvc:XMLView id="idLoginForm" viewName="login.login.view.LoginForm"></mvc:XMLView>
 			<mvc:XMLView id="idSplitApp" viewName="login.login.view.SplitApp"></mvc:XMLView>
 		</App>

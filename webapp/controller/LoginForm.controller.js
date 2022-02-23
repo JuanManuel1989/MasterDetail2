@@ -32,6 +32,15 @@ sap.ui.define([
                             title : "Validation success",
                             actions: [sap.m.MessageBox.Action.OK]
                         });
+
+                        var oApp = this.getView().getParent();
+                        oApp.to("__app1--__xmlview0--idSplitApp");
+                    }else{
+                        MessageBox.show("Login Error", {
+                            icon : sap.m.MessageBox.Icon.INFORMATION,
+                            title : "Validation error",
+                            actions: [sap.m.MessageBox.Action.OK]
+                        });
                     }
                 }
 

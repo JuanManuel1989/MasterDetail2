@@ -1,5 +1,5 @@
 <mvc:View controllerName="login.login.controller.SplitApp" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" displayBlock="true">
-    <Page title="Split App">
+    <Page title="Split App View">
         <content></content>
     </Page>
 </mvc:View>

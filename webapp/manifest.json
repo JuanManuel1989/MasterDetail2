@@ -72,8 +72,7 @@
     "rootView": {
       "viewName": "login.login.view.App",
       "type": "XML",
-      "async": true,
-      "id": "idApp"
+      "async": true
     },
 
     "routing": {
@@ -100,7 +99,7 @@
           "viewType": "XML",
           "transition": "slide",
           "clearControlAggregation": false,
-          "viewId": "idAp2",
+          "viewId": "idApp",
           "viewName": "App"
         }
       }
